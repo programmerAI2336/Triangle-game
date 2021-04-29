@@ -17,6 +17,7 @@ public class Game extends JPanel implements KeyListener, ActionListener, MouseMo
 
     public Game() {
         gamePlay.reset(mapManager.getMap(0));
+
         addKeyListener(this);
         setFocusable(true);
         addMouseMotionListener(this);

@@ -86,6 +86,15 @@ public class ImageManager {
                 case "Triangle game":
                     image = ImageIO.read(new File("Image\\Icon\\Triangle-game.png"));
                     break;
+                case "Game over":
+                    image = ImageIO.read(new File("Image\\Icon\\Game-over.png"));
+                    break;
+                case "Back to menu 0":
+                    image = ImageIO.read(new File("Image\\Icon\\Back-to-menu-0.png"));
+                    break;
+                case "Back to menu 1":
+                    image = ImageIO.read(new File("Image\\Icon\\Back-to-menu-1.png"));
+                    break;
                 default:
                     return null;
             }
